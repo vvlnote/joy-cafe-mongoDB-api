@@ -15,7 +15,7 @@ let cabbage = new Ingredient({
 
 let cauliflower = new Ingredient({
 	name: 'Cauliflower',
-	unit_cose: 2.55,
+	unit_cost: 2.55,
 	used_amount: 0,
 	available_amount: 20,
 	low_amount_alert: 5,
@@ -24,7 +24,7 @@ let cauliflower = new Ingredient({
 
 let beef = new Ingredient({
 	name: 'Beef',
-	unit_cose: 3.45,
+	unit_cost: 3.45,
 	used_amount: 0,
 	available_amount: 25,
 	low_amount_alert: 5,
@@ -33,7 +33,7 @@ let beef = new Ingredient({
 
 let lotusRoot = new Ingredient({
 	name: 'Lotus Root',
-	unit_cose: 2.35,
+	unit_cost: 2.35,
 	used_amount: 0,
 	available_amount: 40,
 	low_amount_alert: 15,
@@ -42,7 +42,7 @@ let lotusRoot = new Ingredient({
 
 let pork = new Ingredient({
 	name: 'Pork',
-	unit_cose: 2.85,
+	unit_cost: 2.85,
 	used_amount: 0,
 	available_amount: 35,
 	low_amount_alert: 5,
@@ -51,7 +51,7 @@ let pork = new Ingredient({
 
 let tofu = new Ingredient({
 	name: 'Tofu',
-	unit_cose: 1.25,
+	unit_cost: 1.25,
 	used_amount: 0,
 	available_amount: 15,
 	low_amount_alert: 5,
@@ -60,7 +60,7 @@ let tofu = new Ingredient({
 
 let pickledLongBeen = new Ingredient({
 	name: 'Pickled Long Been',
-	unit_cose: 1.35,
+	unit_cost: 1.35,
 	used_amount: 0,
 	available_amount: 25,
 	low_amount_alert: 5,
@@ -69,7 +69,7 @@ let pickledLongBeen = new Ingredient({
 
 let greenBellPepper = new Ingredient({
 	name: 'Green Bell Pepper',
-	unit_cose: 0.39,
+	unit_cost: 0.39,
 	used_amount: 0,
 	available_amount: 15,
 	low_amount_alert: 3,
@@ -78,7 +78,7 @@ let greenBellPepper = new Ingredient({
 
 let chicken = new Ingredient({
 	name: 'Chicken',
-	unit_cose: 2.99,
+	unit_cost: 2.99,
 	used_amount: 0,
 	available_amount: 35,
 	low_amount_alert: 10,
@@ -87,7 +87,7 @@ let chicken = new Ingredient({
 
 let shrimp = new Ingredient({
 	name: 'Shrimp',
-	unit_cose: 3.99,
+	unit_cost: 3.99,
 	used_amount: 0,
 	available_amount: 30,
 	low_amount_alert: 10,
@@ -96,7 +96,7 @@ let shrimp = new Ingredient({
 
 let rice = new Ingredient({
 	name: 'Rice',
-	unit_cose: 0.75,
+	unit_cost: 0.75,
 	used_amount: 0,
 	available_amount: 100,
 	low_amount_alert: 20,
