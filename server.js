@@ -19,4 +19,12 @@ mongoose.connect('mongodb://127.0.0.1:27017/cafedb',  { useNewUrlParser: true, u
 const connection = mongoose.connection;
 connection.once('open', () => {console.log('MongoDB database connection established successfully')});
 
-app.listen(PORT, () => {console.log("Server is running on Port: " + PORT);});
+const ingredientsRouter = require('./routes/ingredients');
+const dishesRouter = require('./routes/dishes');
+
+app.use('/ingredients', ingredientsRouter);
+app.use('/dishes', dishesRouter);
+
+app.listen(PORT, () => {
+	console.log("Server is running on Port: " + PORT);
+});
